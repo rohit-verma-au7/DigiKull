@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  /* background-color: yellow; */
+  padding: 10px;
+  width: 100%;
+  background-image: url('./img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+fieldset {
+  /* background-color: aqua; */
+  /* margin: 40%; */
+  width: 60%;
+  margin: auto;
+  background-color: #fff;
+  opacity: 0.7;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  text-align: center;
+}
+
+/* .personal-container,
+.essay-container {
+  margin-bottom: 20px;
+} */
+
+.personal-container {
+  /* background-color: blue; */
+  padding: 10px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.radio-checkfield {
+  display: flex;
+  align-items: center;
+}
+
+.input-container {
+  /* background-color: aqua; */
+  padding: 5px;
+  margin-bottom: 7px;
+
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 15px;
+}
+
+.field-area {
+  /* background-color: lightslategray; */
+  width: 50%;
+  padding: 5px;
+
+  /* display: flex;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+}
+
+.field-area input {
+  height: 40px;
+}
+
+.text-area {
+  width: 100%;
+}
+
+.field {
+  /* background-color: lightpink; */
+  margin-right: 2px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+/* Essay Container styling */
+.essay-container {
+  /* background-color: brown; */
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin: auto;
+
+  /* height: 400px; */
+}
+
+/* Submit container Styling */
+.submit-container {
+  /* background-color: lightcoral; */
+  width: 100%;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.submit-container button {
+  /* background-color: red; */
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+}
