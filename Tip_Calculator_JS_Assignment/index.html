@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div>
+        <header id="header">TIP CALCULATOR</header>
+      </div>
+      <form>
+        <div class="bill-amount-area">
+          <h1>Enter Your Bill Amount</h1>
+        </div>
+        <div class="first input-area">
+          <label for="number">Rs </label>
+          <input type="number" name="number" id="number" />
+        </div>
+        <div class="second select-area">
+          <label for="service"><h1>How was the service?</h1> </label>
+          <div class="select-field">
+            <select id="service" name="service">
+              <option value="excellent">Excellent - 20%</option>
+              <option value="medium">Medium - 10%</option>
+              <option value="not-so-good">Not So Good - 5%</option>
+            </select>
+          </div>
+        </div>
+        <div class="people-field">
+          <h1>How Many people are sharing the bill</h1>
+          <input type="number" name="sharing" id="sharing" />
+        </div>
+        <div class="button-area">
+          <button type="button" onclick="tipCalculator()">Calculate</button>
+        </div>
+      </form>
+      <div class="display-tip">
+        <p>Tip Amount</p>
+        <p id="demo">Rs :</p>
+        <p>Each</p>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

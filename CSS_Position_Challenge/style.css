@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+}
+#main-top-left {
+  background: #ccc;
+  width: 50%;
+  height: 400px;
+  position: relative;
+}
+.small-box {
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+}
+
+#b1 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  top: 0;
+  left: 0;
+}
+#b2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: orange;
+  width: 50px;
+  height: 50px;
+}
+#main-top-right {
+  background-color: #e86f88;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#b3 {
+  position: absolute;
+  bottom: 0;
+  background-color: steelblue;
+  height: 50px;
+  width: 50px;
+}
+#b4 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+}
+#main-bottom-left {
+  background-color: #79badb;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: -1;
+  bottom: 0;
+}
+#b5 {
+  position: absolute;
+  background-color: purple;
+  width: 50px;
+  height: 50px;
+  left: 0;
+  top: 0;
+}
+#b6 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  bottom: 0;
+  right: 0;
+}
+#main-bottom-right {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-color: #a2dbb1;
+  bottom: 0;
+  right: -1px;
+}
+#b7 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+  bottom: 0;
+  left: 0;
+}
+#b8 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  bottom: 0;
+  right: 0;
+}

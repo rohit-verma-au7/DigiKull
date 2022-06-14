@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./script.js"></script>
+    <title>Basic DOM Assignment</title>
+  </head>
+  <body>
+    <div id="root" onmouseover="mouseFunc()" onmouseout="mouseOut()">
+      <h1>ROOT ID</h1>
+    </div>
+    <div
+      class="blue-white"
+      onmouseover="mouseOverFunc()"
+      onmouseout="mouseOverOut()"
+    >
+      <h2>CLASS BLUE-WHITE</h2>
+    </div>
+    <p onmouseover="questionNumber3()" onmouseout="questionNumber3Out()">
+      I AM P TAG WITH NO ATTRIBUTE
+    </p>
+    <p class="blue-white">I AM P TAG HAVING CLASS BLUE-WHITE</p>
+  </body>
+</html>
