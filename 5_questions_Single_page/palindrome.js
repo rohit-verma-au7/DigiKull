@@ -6,10 +6,10 @@ function palindrome(number) {
   for (let i = num.length - 1; i >= 0; i--) {
     result = result + num[i];
   }
-  if (num === result) {
-    console.log('Its a plindrome');
+  if (number == result) {
+    console.log(`It's a plindrome : ${number}`);
   } else {
-    console.log('Its not a palindrome');
+    console.log(`It's not a palindrome : ${number}`);
   }
 }
 
