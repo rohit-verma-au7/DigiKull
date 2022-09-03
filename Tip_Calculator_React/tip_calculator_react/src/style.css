@@ -1,0 +1,117 @@
+body {
+  background-color: lightseagreen;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  align-items: center;
+}
+.header {
+  background-color: blue;
+  border: 2px solid grey;
+  border-radius: 20px;
+}
+
+.input-type {
+  width: 800px;
+  height: 25px;
+}
+
+.upper-div {
+  /* background-color: blueviolet; */
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.lower-div {
+  /* background-color: aqua; */
+  padding-top: 100px;
+  padding-right: 300px;
+  font-size: large;
+}
+
+.service {
+  font-size: 20px;
+}
+
+.input-name {
+  background-color: aqua;
+  margin-left: 80px;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.addcustomer {
+  margin-left: 10px;
+  background-color: rgb(120, 120, 227);
+  border-radius: 8px;
+  height: 30px;
+}
+
+.output-screen {
+  /* background-color: blueviolet; */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  padding: 10px;
+}
+
+.output-screen h2 {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  background-color: lightgray;
+  border: 2px solid black;
+}
+.output-screen ul {
+  /* background-color: aqua; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: auto;
+  padding: 20px;
+}
+
+.calculateTipButton {
+  background-color: green;
+  height: 40px;
+  width: auto;
+  border-radius: 20px;
+  margin-top: 60px;
+}
+
+table {
+  border: 2px solid forestgreen;
+  width: 1800px;
+  height: 90px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(42, 46, 43);
+  position: absolute;
+  color: azure;
+  position: fixed;
+  /* bottom: -20px; */
+  bottom: 0;
+  width: 2000px;
+  /* height: 20px; */
+}
+
+.h4Footer {
+  background-color: lightgreen;
+  padding: 10px;
+  color: black;
+}
+
+.appDivision {
+  position: relative;
+}
