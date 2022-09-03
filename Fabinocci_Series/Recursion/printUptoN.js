@@ -1,8 +1,13 @@
 // Last number added in result, ask from sir too
-let result = [];
-function uptoN(n2, n1) {
-  if (n2 <= n1) return result;
-  result.push(n1 + 1) + uptoN(n2, n1 + 1);
+function helper(n2, n1) {
+  let result = [];
+  function uptoN(n2, n1) {
+    if (n2 <= n1 + 1) return result;
+    result.push(n1 + 1);
+    uptoN(n2, n1 + 1);
+  }
+  uptoN(n2, n1);
+  return result;
 }
-uptoN(10, 2);
-console.log(result);
+
+console.log(helper(10, 5));
