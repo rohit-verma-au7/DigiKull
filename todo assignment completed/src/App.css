@@ -1,0 +1,125 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background-color: blueviolet;
+  padding: 15px 20px;
+}
+
+.addContainer {
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  color: #fff;
+  padding: 10px 0px;
+}
+.addContainer .text {
+  width: 100%;
+  height: 40px;
+  padding: 2px 10px;
+  font-size: 15px;
+  /* text-align: center; */
+  border-radius: 8px;
+}
+.addContainer .date {
+  width: 33px;
+  height: 27px;
+  font-size: 27px;
+  text-align: center;
+  border-radius: 8px;
+  position: absolute;
+  right: 3px;
+  border: none;
+  padding: 5px 0 0 0;
+  top: 3px;
+}
+.addContainer .twin {
+  /* background-color: red; */
+  width: 300px;
+  position: relative;
+}
+
+.addContainer button {
+  width: 90px;
+  height: 29px;
+  font-size: 16px;
+  transition: 0.4s;
+}
+.addContainer button:hover {
+  background-color: crimson;
+  color: #fff;
+}
+
+.todosContainer {
+  background-color: aqua;
+
+  /* mys styling */
+  width: 98%;
+  height: 500px;
+  margin: auto;
+  overflow: auto;
+}
+.todosContainer li {
+  background-color: rgb(223, 219, 219);
+  padding: 5px;
+  margin: 7px 0px;
+  list-style: none;
+  border: 10px solid orangered;
+}
+.todosContainer li .top {
+  /* background-color: rgb(232, 195, 218); */
+  font-size: 18px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5px 0px;
+  padding: 10px 0px;
+}
+.checkContainer {
+  /* background-color: rgb(225, 0, 255); */
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkContainer input {
+  width: 20px;
+  height: 20px;
+}
+.textContainer {
+  /* background-color: aquamarine; */
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+}
+.remarkContainer {
+  /* background-color: lightsalmon; */
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.deleteButtonContainer button {
+  width: 95px;
+  height: 30px;
+}
+.deleteButtonContainer button {
+  width: 95px;
+  height: 30px;
+}
+
+/* MY STYLINGS */
+.description textarea {
+  padding: 7px;
+}
+
+.remark {
+  color: orangered;
+}
