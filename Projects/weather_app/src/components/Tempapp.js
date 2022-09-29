@@ -10,7 +10,7 @@ const Tempapp = () => {
         </div>
       </div>
       <div className="info">
-        <h2 className="location"></h2>
+        <h2 className="location">fg</h2>
       </div>
     </>
   );
