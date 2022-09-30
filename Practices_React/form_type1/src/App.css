@@ -1,0 +1,56 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.employee-details {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.input-search input {
+  margin: 20px;
+  padding: auto;
+  border: 2px solid black;
+  height: 20px;
+  width: 300px;
+}
+
+.button {
+  background-color: green;
+  color: beige;
+  border: 2px solid black;
+  margin: 20px;
+  padding: auto;
+  height: 20px;
+  width: 100px;
+}
+
+.input-type {
+  margin: 10px;
+  padding: 20px;
+}
+
+.table {
+  margin: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table td,
+.table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
