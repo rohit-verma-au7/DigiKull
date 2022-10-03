@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 
 const TableData = (props) => {
-  console.log('props', props);
+  console.log('props', props.data);
   return (
     <div>
       <div className="table">
@@ -13,17 +13,14 @@ const TableData = (props) => {
             <th>Email Id</th>
             <th>Action</th>
           </tr>
-          <tr className="table-data">
-            <td>{props.data.firstName}</td>
-            <td>{props.data.lastName}</td>
-            <td>{props.data.email}</td>
-            <td>
-              <button>EDIT</button>
-            </td>
-            <td>
-              <button>DELETE</button>
-            </td>
-          </tr>
+          {props.data.map((items) => (
+            <tr>
+              <td>{items.firstName}</td>
+              <td>{items.lastName}</td>
+              <td>{items.email}</td>
+              <td>{items.employeeId}</td>
+            </tr>
+          ))}
         </table>
       </div>
     </div>

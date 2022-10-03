@@ -9,6 +9,7 @@ const Header = () => {
     email: '',
     employeeId: '',
   });
+  const [test, settest] = useState([]);
 
   function handleChange(e) {
     const value = e.target.value;
@@ -19,8 +20,7 @@ const Header = () => {
     // setdata('');
   }
   const showValue = () => {
-    console.log('data', data);
-    // setdata('');
+    settest(data);
   };
 
   return (
@@ -63,7 +63,7 @@ const Header = () => {
         </button>
       </div>
       <hr />
-      <TableData data={data} />
+      <TableData data={[test]} />
     </div>
   );
 };
